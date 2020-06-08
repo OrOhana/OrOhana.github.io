@@ -647,13 +647,14 @@ ul.social-buttons li a:hover {
   position: fixed;
   width: 100px;
   height: 100px;
-  background-color: transparent;
+  background-color: white;
   top: 35px;
   right: 35px;
   cursor: pointer;
+  z-index: 999;
 }
 .portfolio-modal .close-modal:hover {
-  opacity: 0.3;
+  opacity: 0.8;
 }
 .portfolio-modal .close-modal .lr {
   height: 100px;
