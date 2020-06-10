@@ -652,6 +652,8 @@ ul.social-buttons li a:hover {
   right: 35px;
   cursor: pointer;
   z-index: 999;
+  opacity: .9;
+  border-radius: 30px;
 }
 .portfolio-modal .close-modal:hover {
   opacity: 0.8;

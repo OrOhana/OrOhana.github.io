@@ -592,11 +592,11 @@
                                     <div><img class="img-responsive lazy_load" src="" data-src="img/portfolio/Spire/SPB%20(014)_2.jpg" alt=""></div>
                                     <div><img class="img-responsive lazy_load" src="" data-src="img/portfolio/Spire/SPB4.jpg" alt=""></div>
                                     <div><img class="img-responsive lazy_load" src="" data-src="img/portfolio/Spire/SPB%206.jpg" alt=""></div>
-                                    <div><img class="img-responsive lazy_load" src="" data-src="img/portfolio/Spire/SPB%202.jpg" alt=""></div>
                                     <div><img class="img-responsive lazy_load" src="" data-src="img/portfolio/Spire/SPB%203.jpg" alt=""></div>
                                     <div><img class="img-responsive lazy_load" src="" data-src="img/portfolio/Spire/SPB%205.jpg" alt=""></div>
                                     <div><img class="img-responsive lazy_load" src="" data-src="img/portfolio/Spire/SPB.jpg" alt=""></div>
                                     <div><img class="img-responsive lazy_load" src="" data-src="img/portfolio/Spire/SPB%20(010).jpg" alt=""></div>
+                                    <div><img class="img-responsive lazy_load" src="" data-src="img/portfolio/Spire/SPB%202.jpg" alt=""></div>
                                     <div><img class="img-responsive lazy_load" src="" data-src="img/portfolio/Spire/SPB%20(04).jpg" alt=""></div>
                                     <div><img class="img-responsive lazy_load" src="" data-src="img/portfolio/Spire/SPB%20(05).jpg" alt=""></div>
                                     <div><img class="img-responsive lazy_load" src="" data-src="img/portfolio/Spire/SPB%20(011).jpg" alt=""></div>
@@ -830,7 +830,7 @@
                                 <div><img class="img-responsive lazy_load" src="" data-src="img/portfolio/Tower/MXB%20(7).jpg" alt=""></div>
                                 <div><img class="img-responsive lazy_load" src="" data-src="img/portfolio/Tower/MXB%20(07).jpg" alt=""></div>
                                 <div><img class="img-responsive lazy_load" src="" data-src="img/portfolio/Tower/MXB%20(08).jpg" alt=""></div>
-                                <div><img class="img-responsive lazy_load" src="" data-src="img/portfolio/Tower/MXB%20(011).jpg" alt=""></div>
+                                <div><img class="img-responsive lazy_load" src="" data-src="img/portfolio/Tower/MXB%20(011)_2.jpg" alt=""></div>
                                 <div><img class="img-responsive lazy_load" src="" data-src="img/portfolio/Tower/MXB%20(013).jpg" alt=""></div>
                                 <div><img class="img-responsive lazy_load" src="" data-src="img/portfolio/Tower/MXB%20(015).jpg" alt=""></div>
                                 <div><img class="img-responsive lazy_load" src="" data-src="img/portfolio/Tower/MXB%20(016)_2.jpg" alt=""></div>
@@ -1225,9 +1225,11 @@
             if (WindowWidth < 768) {
                 video.poster="img/header-bg2.jpg";
                 video.append("<source src=\"img/intro2.mp4\" type=\"video/mp4\">");
+                video.play();
             } else {
                 video.poster="img/header-bg.jpg";
-                video.append("<source src=\"img/intro.webm\" type=\"video/webm\">");
+                video.append("<source src=\"img/intro.mp4\" type=\"video/mp4\">");
+                video.play();
             }
         });
 
