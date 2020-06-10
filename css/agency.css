@@ -776,6 +776,13 @@ img::-moz-selection {
     margin-left: 10px;
     padding-right: 10px;
   }
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    margin-bottom: 50px;
+    height: 0;
+    overflow: hidden;
+  }
 }
 @media (max-width: 767px) {
   .services-bottom {
@@ -814,6 +821,13 @@ img::-moz-selection {
     line-height: 2px;
     margin-bottom: 25px;
   }
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    margin-bottom: 15px;
+    height: 0;
+    overflow: hidden;
+  }
 }
 .no-text-transform {
   text-transform: none;
@@ -825,13 +839,6 @@ img::-moz-selection {
 .embed-viemo {
   height: 360px !important;
   margin-bottom: 10px;
-}
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  margin-bottom: 50px;
-  height: 0;
-  overflow: hidden;
 }
 .video-container iframe,
 .video-container object,
